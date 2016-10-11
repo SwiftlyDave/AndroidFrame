@@ -14,7 +14,6 @@ import java.lang.reflect.Method;
  */
 
 public class StatusBarUtil {
-
     /**
      * 修改状态栏为全透明
      *
