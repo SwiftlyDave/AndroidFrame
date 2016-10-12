@@ -37,4 +37,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     testCompile 'junit:junit:4.12'
     compile 'com.github.PhilJay:MPAndroidChart:v3.0.0-beta1'//图形库MPAndroidChart
+    compile('io.socket:socket.io-client:0.8.1') {
+        // excluding org.json which is provided by Android
+        exclude group: 'org.json', module: 'json'
+    }//Socket
 }
