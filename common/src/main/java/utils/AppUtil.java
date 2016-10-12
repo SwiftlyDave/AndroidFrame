@@ -18,7 +18,7 @@ public class AppUtil {
     /**
      * 调用系统分享
      */
-    public static void shareToOtherApp(Context context, String title, String content, String dialogTitle ) {
+    public static void shareToOtherApp(Context context, String title, String content, String dialogTitle) {
         Intent intentItem = new Intent(Intent.ACTION_SEND);
         intentItem.setType("text/plain");
         intentItem.putExtra(Intent.EXTRA_SUBJECT, title);
@@ -45,6 +45,7 @@ public class AppUtil {
 
     /**
      * 获取App包 信息版本号
+     *
      * @param context
      * @return
      */

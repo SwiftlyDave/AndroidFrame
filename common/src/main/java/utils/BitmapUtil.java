@@ -12,7 +12,6 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import log.Log;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.MediaStore;
@@ -23,6 +22,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 import assist.Base64;
+import log.Log;
 
 public class BitmapUtil {
 

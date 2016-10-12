@@ -7,13 +7,13 @@ import android.os.Build;
 import android.os.SystemClock;
 import android.provider.Settings;
 
-import com.litesuits.android.log.Log;
-import com.litesuits.common.io.FileUtils;
-
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import io.FileUtils;
+import log.Log;
 
 /**
  * 手机信息 & MAC地址 & 开机时间

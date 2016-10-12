@@ -1,5 +1,6 @@
 package utils;
 
+
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -13,9 +14,9 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 
-import com.litesuits.android.log.Log;
-
 import java.util.ArrayList;
+
+import log.Log;
 
 /**
  * @author MaTianyu

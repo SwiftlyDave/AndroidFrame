@@ -5,15 +5,16 @@ import java.util.Random;
 /**
  * 随机工具类
  * modified form Trinea
+ *
  * @author trinea
  * @date 2014-12-10
  */
 public class RandomUtil {
     public static final String NUMBERS_AND_LETTERS = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    public static final String NUMBERS             = "0123456789";
-    public static final String LETTERS             = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    public static final String CAPITAL_LETTERS     = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    public static final String LOWER_CASE_LETTERS  = "abcdefghijklmnopqrstuvwxyz";
+    public static final String NUMBERS = "0123456789";
+    public static final String LETTERS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    public static final String CAPITAL_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    public static final String LOWER_CASE_LETTERS = "abcdefghijklmnopqrstuvwxyz";
 
     private RandomUtil() {
         throw new AssertionError();

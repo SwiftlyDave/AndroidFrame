@@ -1,8 +1,9 @@
 package utils;
 
 import android.content.Context;
-import log.Log;
 import android.util.DisplayMetrics;
+
+import log.Log;
 
 
 /**

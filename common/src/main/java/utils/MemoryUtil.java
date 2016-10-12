@@ -3,9 +3,10 @@ package utils;
 import android.annotation.TargetApi;
 import android.app.ActivityManager;
 import android.content.Context;
-import log.Log;
 import android.os.Build;
 import android.text.format.Formatter;
+
+import log.Log;
 
 
 /**
@@ -20,7 +21,7 @@ public class MemoryUtil {
 
     /**
      * Print memory info. such as:
-     *
+     * <p>
      * MemTotal:        1864292 kB
      * MemFree:          779064 kB
      * Buffers:            4540 kB
